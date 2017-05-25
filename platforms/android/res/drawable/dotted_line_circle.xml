@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false" >
+
+    <padding
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp" />
+
+    <solid android:color="@null" />
+
+    <stroke
+        android:dashGap="2dp"
+        android:dashWidth="2dp"
+        android:width="1dp"
+        android:color="@color/mui_c5" />
+
+    <size
+        android:height="48dp"
+        android:width="48dp" />
+
+</shape>

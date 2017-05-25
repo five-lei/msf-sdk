@@ -1,0 +1,79 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="com.taobao.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="com.taobao.permission.UPDATE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <!-- tao account share end -->
+
+
+    <!-- sonic start -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <!-- sonic end -->
+
+
+    <!-- agoo start -->
+    <uses-permission android:name="org.agoo.android.permission.MESSAGE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="com.taobao.taobao.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <!-- agoo end -->
+
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.tmall.wireless.privateinfo.permission.READ_MESSAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+  <application>
+        <activity android:name="com.alibaba.sdk.android.webview.BaseWebViewActivity"/>
+        <receiver android:exported="false" android:name="com.alibaba.sdk.android.hotpatch.HotPatchBroadcastReceiver" android:process=":hotpatch">
+            <intent-filter>
+                <action android:name="com.alibaba.sdk.android.hotpatch.action.HOT_PATCH"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.alibaba.sdk.android.msf.activity.LoginActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden">
+        </activity>
+        <activity android:name="com.alibaba.sdk.android.msf.activity.RegisterActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden">
+        </activity>
+        <activity android:name="com.alibaba.sdk.android.msf.activity.SkillActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden">
+        </activity>
+        <activity android:name="com.alibaba.sdk.android.msf.activity.VerifyBySdkActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden">
+        </activity>
+        <activity android:name="com.alibaba.sdk.android.msf.activity.NoIdentifyCodeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden">
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden" android:name="com.alibaba.sdk.android.msf.activity.CameraActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.alibaba.sdk.android.msf.activity.MWebActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.alibaba.sdk.android.msf.activity.MImgActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.alibaba.sdk.android.msf.dialog.FaceDialog" android:theme="@style/MyDialogStyleBottom"/>
+        <activity android:name="com.alibaba.sdk.android.msf.dialog.PicDialog" android:theme="@style/MyDialogStyleBottom"/>
+    </application>
+
+</manifest>

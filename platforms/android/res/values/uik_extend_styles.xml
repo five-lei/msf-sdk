@@ -1,0 +1,42 @@
+<resources>    
+    <style name="ImageViewerDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    
+    <style name="loading_progressbar">
+        <item name="android:indeterminateDrawable">@drawable/uik_loading_progress</item>
+        <item name="android:indeterminateDuration">1000</item>
+	　　	<item name="android:minWidth">76dip</item>
+	　　	<item name="android:maxWidth">76dip</item>
+	　　	<item name="android:minHeight">76dip</item>
+	　　	<item name="android:maxHeight">76dip</item>       
+    </style>  
+    
+    
+ 
+
+    <style name="TF_ActivityTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/TF_ActivityAnimation</item>
+
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="TF_ActivityAnimation">
+        <item name="@android:windowEnterAnimation">@anim/tf_slide_in_top</item>
+        <item name="@android:windowExitAnimation">@anim/tf_slide_out_top</item>
+    </style>
+
+
+</resources>

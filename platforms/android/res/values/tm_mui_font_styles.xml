@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--mui_f9 样式 f9 为特殊字号-->
+    <style name="mui_f9_c0">
+        <item name="android:textSize">@dimen/mui_f9</item>
+        <item name="android:textColor">@color/mui_c0</item>
+    </style>
+
+    <style name="mui_f9_c1">
+        <item name="android:textSize">@dimen/mui_f9</item>
+        <item name="android:textColor">@color/mui_c1</item>
+    </style>
+
+    <style name="mui_f9_c2">
+        <item name="android:textSize">@dimen/mui_f9</item>
+        <item name="android:textColor">@color/mui_c2</item>
+    </style>
+
+    <style name="mui_f9_c3">
+        <item name="android:textSize">@dimen/mui_f9</item>
+        <item name="android:textColor">@color/mui_c3</item>
+    </style>
+
+    <style name="mui_f9_c4">
+        <item name="android:textSize">@dimen/mui_f9</item>
+        <item name="android:textColor">@color/mui_c4</item>
+    </style>
+
+    <style name="mui_f9_c5">
+        <item name="android:textSize">@dimen/mui_f9</item>
+        <item name="android:textColor">@color/mui_c5</item>
+    </style>
+
+    <style name="mui_f9_c6">
+        <item name="android:textSize">@dimen/mui_f9</item>
+        <item name="android:textColor">@color/mui_c6</item>
+    </style>
+
+    <style name="mui_f9_c7">
+        <item name="android:textSize">@dimen/mui_f9</item>
+        <item name="android:textColor">@color/mui_c7</item>
+    </style>
+
+
+    <!--mui_f10_xx -->
+    <style name="mui_f10_c0">
+        <item name="android:textSize">@dimen/mui_f10</item>
+        <item name="android:textColor">@color/mui_c0</item>
+    </style>
+
+    <style name="mui_f10_c1">
+        <item name="android:textSize">@dimen/mui_f10</item>
+        <item name="android:textColor">@color/mui_c1</item>
+    </style>
+
+    <style name="mui_f10_c2">
+        <item name="android:textSize">@dimen/mui_f10</item>
+        <item name="android:textColor">@color/mui_c2</item>
+    </style>
+
+    <style name="mui_f10_c3">
+        <item name="android:textSize">@dimen/mui_f10</item>
+        <item name="android:textColor">@color/mui_c3</item>
+    </style>
+
+    <style name="mui_f10_c4">
+        <item name="android:textSize">@dimen/mui_f10</item>
+        <item name="android:textColor">@color/mui_c4</item>
+    </style>
+
+    <style name="mui_f10_c5">
+        <item name="android:textSize">@dimen/mui_f10</item>
+        <item name="android:textColor">@color/mui_c5</item>
+    </style>
+
+    <style name="mui_f10_c6">
+        <item name="android:textSize">@dimen/mui_f10</item>
+        <item name="android:textColor">@color/mui_c6</item>
+    </style>
+
+    <style name="mui_f10_c7">
+        <item name="android:textSize">@dimen/mui_f10</item>
+        <item name="android:textColor">@color/mui_c7</item>
+    </style>
+
+
+    <!--mui_f11_xx -->
+    <style name="mui_f11_c0">
+        <item name="android:textSize">@dimen/mui_f11</item>
+        <item name="android:textColor">@color/mui_c0</item>
+    </style>
+
+    <style name="mui_f11_c1">
+        <item name="android:textSize">@dimen/mui_f11</item>
+        <item name="android:textColor">@color/mui_c1</item>
+    </style>
+
+    <style name="mui_f11_c2">
+        <item name="android:textSize">@dimen/mui_f11</item>
+        <item name="android:textColor">@color/mui_c2</item>
+    </style>
+
+    <style name="mui_f11_c3">
+        <item name="android:textSize">@dimen/mui_f11</item>
+        <item name="android:textColor">@color/mui_c3</item>
+    </style>
+
+    <style name="mui_f11_c4">
+        <item name="android:textSize">@dimen/mui_f11</item>
+        <item name="android:textColor">@color/mui_c4</item>
+    </style>
+
+    <style name="mui_f11_c5">
+        <item name="android:textSize">@dimen/mui_f11</item>
+        <item name="android:textColor">@color/mui_c5</item>
+    </style>
+
+    <style name="mui_f11_c6">
+        <item name="android:textSize">@dimen/mui_f11</item>
+        <item name="android:textColor">@color/mui_c6</item>
+    </style>
+
+    <style name="mui_f11_c7">
+        <item name="android:textSize">@dimen/mui_f11</item>
+        <item name="android:textColor">@color/mui_c7</item>
+    </style>
+
+    <!--mui_f12_xx -->
+    <style name="mui_f12_c0">
+        <item name="android:textSize">@dimen/mui_f12</item>
+        <item name="android:textColor">@color/mui_c0</item>
+    </style>
+
+    <style name="mui_f12_c1">
+        <item name="android:textSize">@dimen/mui_f12</item>
+        <item name="android:textColor">@color/mui_c1</item>
+    </style>
+
+    <style name="mui_f12_c2">
+        <item name="android:textSize">@dimen/mui_f12</item>
+        <item name="android:textColor">@color/mui_c2</item>
+    </style>
+
+    <style name="mui_f12_c3">
+        <item name="android:textSize">@dimen/mui_f12</item>
+        <item name="android:textColor">@color/mui_c3</item>
+    </style>
+
+    <style name="mui_f12_c4">
+        <item name="android:textSize">@dimen/mui_f12</item>
+        <item name="android:textColor">@color/mui_c4</item>
+    </style>
+
+    <style name="mui_f12_c5">
+        <item name="android:textSize">@dimen/mui_f12</item>
+        <item name="android:textColor">@color/mui_c5</item>
+    </style>
+
+    <style name="mui_f12_c6">
+        <item name="android:textSize">@dimen/mui_f12</item>
+        <item name="android:textColor">@color/mui_c6</item>
+    </style>
+
+    <style name="mui_f12_c7">
+        <item name="android:textSize">@dimen/mui_f12</item>
+        <item name="android:textColor">@color/mui_c7</item>
+    </style>
+
+
+    <!--mui_f13_xx -->
+    <style name="mui_f13_c0">
+        <item name="android:textSize">@dimen/mui_f13</item>
+        <item name="android:textColor">@color/mui_c0</item>
+    </style>
+
+    <style name="mui_f13_c1">
+        <item name="android:textSize">@dimen/mui_f13</item>
+        <item name="android:textColor">@color/mui_c1</item>
+    </style>
+
+    <style name="mui_f13_c2">
+        <item name="android:textSize">@dimen/mui_f13</item>
+        <item name="android:textColor">@color/mui_c2</item>
+    </style>
+
+    <style name="mui_f13_c3">
+        <item name="android:textSize">@dimen/mui_f13</item>
+        <item name="android:textColor">@color/mui_c3</item>
+    </style>
+
+    <style name="mui_f13_c4">
+        <item name="android:textSize">@dimen/mui_f13</item>
+        <item name="android:textColor">@color/mui_c4</item>
+    </style>
+
+    <style name="mui_f13_c5">
+        <item name="android:textSize">@dimen/mui_f13</item>
+        <item name="android:textColor">@color/mui_c5</item>
+    </style>
+
+    <style name="mui_f13_c6">
+        <item name="android:textSize">@dimen/mui_f13</item>
+        <item name="android:textColor">@color/mui_c6</item>
+    </style>
+
+    <style name="mui_f13_c7">
+        <item name="android:textSize">@dimen/mui_f13</item>
+        <item name="android:textColor">@color/mui_c7</item>
+    </style>
+
+
+    <!--mui_f14_xx -->
+    <style name="mui_f14_c0">
+        <item name="android:textSize">@dimen/mui_f14</item>
+        <item name="android:textColor">@color/mui_c0</item>
+    </style>
+
+    <style name="mui_f14_c1">
+        <item name="android:textSize">@dimen/mui_f14</item>
+        <item name="android:textColor">@color/mui_c1</item>
+    </style>
+
+    <style name="mui_f14_c2">
+        <item name="android:textSize">@dimen/mui_f14</item>
+        <item name="android:textColor">@color/mui_c2</item>
+    </style>
+
+    <style name="mui_f14_c3">
+        <item name="android:textSize">@dimen/mui_f14</item>
+        <item name="android:textColor">@color/mui_c3</item>
+    </style>
+
+    <style name="mui_f14_c4">
+        <item name="android:textSize">@dimen/mui_f14</item>
+        <item name="android:textColor">@color/mui_c4</item>
+    </style>
+
+    <style name="mui_f14_c5">
+        <item name="android:textSize">@dimen/mui_f14</item>
+        <item name="android:textColor">@color/mui_c5</item>
+    </style>
+
+    <style name="mui_f14_c6">
+        <item name="android:textSize">@dimen/mui_f14</item>
+        <item name="android:textColor">@color/mui_c6</item>
+    </style>
+
+    <style name="mui_f14_c7">
+        <item name="android:textSize">@dimen/mui_f14</item>
+        <item name="android:textColor">@color/mui_c7</item>
+    </style>
+
+
+    <!--mui_f15_xx -->
+    <style name="mui_f15_c0">
+        <item name="android:textSize">@dimen/mui_f15</item>
+        <item name="android:textColor">@color/mui_c0</item>
+    </style>
+
+    <style name="mui_f15_c1">
+        <item name="android:textSize">@dimen/mui_f15</item>
+        <item name="android:textColor">@color/mui_c1</item>
+    </style>
+
+    <style name="mui_f15_c2">
+        <item name="android:textSize">@dimen/mui_f15</item>
+        <item name="android:textColor">@color/mui_c2</item>
+    </style>
+
+    <style name="mui_f15_c3">
+        <item name="android:textSize">@dimen/mui_f15</item>
+        <item name="android:textColor">@color/mui_c3</item>
+    </style>
+
+    <style name="mui_f15_c4">
+        <item name="android:textSize">@dimen/mui_f15</item>
+        <item name="android:textColor">@color/mui_c4</item>
+    </style>
+
+    <style name="mui_f15_c5">
+        <item name="android:textSize">@dimen/mui_f15</item>
+        <item name="android:textColor">@color/mui_c5</item>
+    </style>
+
+    <style name="mui_f15_c6">
+        <item name="android:textSize">@dimen/mui_f15</item>
+        <item name="android:textColor">@color/mui_c6</item>
+    </style>
+
+    <style name="mui_f15_c7">
+        <item name="android:textSize">@dimen/mui_f15</item>
+        <item name="android:textColor">@color/mui_c7</item>
+    </style>
+</resources>

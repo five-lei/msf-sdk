@@ -1,0 +1,8 @@
+<resources>
+	<string name="uik_image_load_error">图片加载失败</string>
+	
+	<string name="uikit_search_text">搜索</string>
+	  
+   	<string name="uik_progressText">载入中&#8230;</string>
+   	
+</resources>

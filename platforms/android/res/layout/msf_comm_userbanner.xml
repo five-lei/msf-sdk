@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/msf_userbanner_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/white"
+    android:padding="10dp" >
+
+    <com.alibaba.sdk.android.msf.widget.CircleImageView
+        android:id="@+id/face_img"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:contentDescription="@null"
+        android:src="@drawable/msfic_launcher" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/face_img"
+        android:layout_toRightOf="@id/face_img"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:id="@+id/name_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="喵师傅，你好"
+            android:textColor="@color/mui_c2"
+            android:textSize="@dimen/mui_f14" />
+
+        <TextView
+            android:id="@+id/comp_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="天猫技术有限公司"
+            android:textColor="@color/mui_c4"
+            android:textSize="@dimen/mui_f10" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/msfrate_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@color/orange"
+                android:paddingBottom="2dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="2dp"
+                android:text="3.2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/mui_f10" />
+
+            <RatingBar
+                android:id="@+id/msfrate_r"
+                style="@style/RatingBarmsfTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="6dp"
+                android:rating="3.2"
+                android:stepSize="0.5" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

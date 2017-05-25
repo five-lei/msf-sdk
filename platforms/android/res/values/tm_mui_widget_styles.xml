@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.NoTitleBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- tm mui 基础uikit 组将 样式声明 @洛远 -->
+    <style name="MUI.CheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/tm_mui_checkbox_0_selector</item>
+    </style>
+
+    <style name="MUI.RadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/tm_mui_radiobutton_0_selector</item>
+    </style>
+
+    <!-- <style name="MUI.Switch" parent="@android:style/Widget.CompoundButton.Switch"> -->
+    <!-- <item name="android:button">@drawable/tm_mui_radiobutton_0_selector</item> -->
+    <!-- </style> -->
+
+</resources>

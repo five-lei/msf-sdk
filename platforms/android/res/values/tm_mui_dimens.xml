@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="mui_tab_btn_height">48dp</dimen>
+    <dimen name="mui_actionbar_height">48dp</dimen>
+
+    <dimen name="mui_m0">3dp</dimen>
+    <dimen name="mui_m1">9dp</dimen>
+    <dimen name="mui_m2">12dp</dimen>
+    <dimen name="mui_m3">15dp</dimen>
+
+    <dimen name="mui_m_padding">@dimen/mui_m3</dimen>
+    <dimen name="mui_page_padding">@dimen/mui_m1</dimen>
+
+
+</resources>

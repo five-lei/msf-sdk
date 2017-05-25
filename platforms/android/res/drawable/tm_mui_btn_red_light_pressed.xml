@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/mui_btn_pressed_bg_light_pressed" />
+    <corners android:radius="2dp" />
+    <stroke
+        android:width="0.5dp"
+        android:color="@color/mui_c0" />
+</shape>

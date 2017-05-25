@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 视觉统一化以后的文字大小 -->
+  	<dimen name="uikit_TS_0">24dp</dimen> 
+    <dimen name="uikit_TS_1">20dp</dimen>
+    <dimen name="uikit_TS_2">18dp</dimen>
+    <dimen name="uikit_TS_3">16dp</dimen>
+    <dimen name="uikit_TS_4">14dp</dimen>
+    <dimen name="uikit_TS_5">12dp</dimen>
+    <dimen name="uikit_TS_6">11dp</dimen>
+    <dimen name="uikit_TS_7">10dp</dimen>
+    
+    
+    <dimen name="uik_errorTitleSize">18dp</dimen>
+	<dimen name="uik_errorSubTitleSzie">12dp</dimen>
+    <dimen name="uik_errorButtonTextSize">14dp</dimen>
+    <dimen name="uik_errorIconSize">100dp</dimen>
+    <dimen name="uik_errorIconFontSize">96dp</dimen>
+    <dimen name="uik_errorIconMarginTop">72dp</dimen>
+    <dimen name="uik_errorIconMarginBottom">40dp</dimen>
+    <dimen name="uik_errorTextMarginBottom">12dp</dimen>
+	<dimen name="uik_errorButtonWidth">128dp</dimen>    
+    <dimen name="uik_errorButtonHeight">36dp</dimen>
+    <dimen name="uik_errorButtonRadius">4dp</dimen>
+    <dimen name="uik_errorButtonStroke">1dp</dimen>
+    <dimen name="uik_errorTitleHeight">24dp</dimen>
+    <dimen name="uik_errorSubTitleHeight">32dp</dimen>
+    <dimen name="uik_errorButtonMargin">10dp</dimen>
+    
+    
+    <dimen name="uik_progressSize">96dp</dimen>
+    <dimen name="uik_progressBarMarginTop">20dp</dimen>
+    <dimen name="uik_progressBarMarginBottom">12dp</dimen>
+    <dimen name="uik_ringSize">32dp</dimen>
+    <dimen name="uik_ringWidth">2dp</dimen>
+    <dimen name="uik_progressTextSize">14dp</dimen>
+    
+</resources>

@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wuse_main_scroll_tab_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aa000000" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mui_c7" >
+        <TextView
+            android:id="@+id/wuse_main_tab_gridview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="#fafafa"
+            android:clickable="true"
+            android:padding="10dp"
+            android:text="切换类目"
+            android:textColor="@color/mui_c1"
+            android:textSize="@dimen/mui_f15" />
+
+        <ImageView
+            android:id="@+id/wuse_main_tab_menu_close_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="#fafafa"
+            android:clickable="true"
+            android:padding="10dp"
+            android:src="@drawable/tm_mui_main_tab_btn_up" />
+
+        <GridView
+            android:id="@+id/wuse_main_tab_gridview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wuse_main_tab_menu_close_btn"
+            android:columnWidth="90dp"
+            android:gravity="center"
+            android:numColumns="4"
+            android:stretchMode="columnWidth"/>
+    </RelativeLayout>
+</RelativeLayout>

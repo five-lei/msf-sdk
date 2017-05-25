@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="hello">神器在手，上门无忧</string>
+    <string name="welcome">在这里，成就你</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_title">登录/注册</string>
+    <string name="register_title">完善个人信息</string>
+    <string name="register_skill">个人技能</string>
+    <string name="camera_d">相机</string>
+    <string name="camera">拍照上传</string>
+    <string name="recamera">重拍</string>
+    <string name="msf_title">喵师傅(阿里巴巴旗下)</string>
+    <string name="msf_scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="neterror_msg1"> 当前网络不佳,网络畅通时自动回传服务信息:</string>
+    <string name="neterror_msg2"> 以下信息由于确认码错误上传失败:</string>
+    <string name="msf_file_not_found">对不起,未找到拍照之后的照片,请重试！</string>
+    <string name="add_tag">添加标签</string>
+
+</resources>

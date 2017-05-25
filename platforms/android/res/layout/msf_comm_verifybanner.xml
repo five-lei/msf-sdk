@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/msf_userbanner_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingBottom="6dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="6dp" >
+
+        <TextView
+            android:id="@+id/statusStripT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="核销状态"
+            android:textColor="@color/mui_c4"
+            android:textSize="@dimen/mui_f14" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="#ccc" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/codefrommobilemsg_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text="服务确认码已发送到用户手机(服务完成后向用户索取)"
+            android:textColor="@color/mui_c2"
+            android:textSize="@dimen/mui_f14" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:paddingTop="10dp" >
+
+            <EditText
+                android:id="@+id/msf_vcode_EditText"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/msftheme_edit_text_holo_light"
+                android:digits="0123456789qwertyupasdfghjklxcvbnmQWERTYUPASDFGHJKLXCVBNM"
+                android:gravity="top|left"
+                android:hint="请输入服务确认码"
+                android:inputType="number"
+                android:maxLength="4"
+                android:scrollbars="vertical"
+                android:textColorHint="@color/mui_c5"
+                android:textSize="@dimen/mui_f14" />
+
+            <Button
+                android:id="@+id/msf_sm_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.1"
+                android:background="@drawable/msftheme_btn_default_holo_light"
+                android:onClick="sendVcode"
+                android:text="补发确认码"
+                android:textColor="@drawable/msf_s_btn_font_style"
+                android:textSize="@dimen/mui_f14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                android:text="上传安装效果图"
+                android:textColor="@color/mui_c2"
+                android:textSize="@dimen/mui_f14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:singleLine="false"
+                android:text="*"
+                android:textColor="@color/mui_c0"
+                android:textSize="@dimen/mui_f14" />
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/msf_id_gridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:cacheColorHint="@android:color/transparent"
+            android:clipChildren="true"
+            android:gravity="center"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="4" >
+        </GridView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="#ccc" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/signtext_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text="2015/09/23/ 14:22上门签到成功！"
+            android:textColor="@color/mui_c2"
+            android:textSize="@dimen/mui_f14" />
+    </LinearLayout>
+
+</LinearLayout>

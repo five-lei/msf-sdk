@@ -1,0 +1,335 @@
+<resources>
+
+    <!-- icon a -->
+    <string name="uik_icon_home">&#xa01a;</string>
+    <string name="uik_icon_we">&#xa02a;</string>
+    <string name="uik_icon_discover">&#xa03a;</string>
+    <string name="uik_icon_cart">&#xa04a;</string>
+    <string name="uik_icon_my">&#xa05a;</string>
+
+    <!-- for fill -->
+    <string name="uik_icon_home_fill">&#xa01b;</string>
+    <string name="uik_icon_we_fill">&#xa02b;</string>
+    <string name="uik_icon_discover_fill">&#xa03b;</string>
+    <string name="uik_icon_cart_fill">&#xa04b;</string>
+    <string name="uik_icon_my_fill">&#xa05b;</string>
+    <!-- end for fill -->
+
+    <string name="uik_icon_more">&#xa06a;</string>
+    <string name="uik_icon_back">&#xa07a;</string>
+    <string name="uik_icon_message">&#xa08a;</string>
+    <string name="uik_icon_scan">&#xa10a;</string>
+    <string name="uik_icon_settings">&#xa11a;</string>
+    <string name="uik_icon_share">&#xa12a;</string>
+    <string name="uik_icon_list">&#xa13a;</string>
+    <string name="uik_icon_cascades">&#xa14a;</string>
+    <string name="uik_icon_sort">&#xa15a;</string>
+    <string name="uik_icon_remind">&#xa16a;</string>
+    <string name="uik_icon_friend">&#xa17a;</string>
+    <!-- <string name="uik_icon_friend_famous">&#xe6cb;</string> -->
+    <string name="uik_icon_profile">&#xa18a;</string>
+    <string name="uik_icon_qr_code">&#xa19a;</string>
+    <!-- ennd for icon a -->
+
+
+    <!-- icon b -->
+    <string name="uik_icon_favor">&#xb01a;</string>
+    <string name="uik_icon_time">&#xb02a;</string>
+    <string name="uik_icon_location">&#xb03a;</string>
+    <string name="uik_icon_taxi">&#xb04a;</string>
+    <string name="uik_icon_phone">&#xb05a;</string>
+    <string name="uik_icon_edit">&#xb06a;</string>
+    <string name="uik_icon_search">&#xb07a;</string>
+    <string name="uik_icon_delete">&#xb08a;</string>
+    <string name="uik_icon_emoji">&#xb09a;</string>
+    <string name="uik_icon_appreciate">&#xb10a;</string>
+    <string name="uik_icon_loading">&#xb11a;</string>
+    <string name="uik_icon_pull_up">&#xb12a;</string>
+    <string name="uik_icon_pull_down">&#xb13a;</string>
+    <string name="uik_icon_footprint">&#xb14a;</string>
+    <string name="uik_icon_top">&#xb15a;</string>
+    <string name="uik_icon_filter">&#xb16a;</string>
+    <string name="uik_icon_like">&#xb17a;</string>
+    <string name="uik_icon_comment">&#xb18a;</string>
+    <string name="uik_icon_same">&#xb19a;</string>
+    <string name="uik_icon_order">&#xb20a;</string>
+    <string name="uik_icon_notification">&#xb21a;</string>
+    <string name="uik_icon_camera">&#xb22a;</string>
+    <string name="uik_icon_tag">&#xb23a;</string>
+    <string name="uik_icon_form">&#xb24a;</string>
+    <string name="uik_icon_pic">&#xb25a;</string>
+    <!-- for fill -->
+    <string name="uik_icon_favor_fill">&#xb01b;</string>
+    <string name="uik_icon_time_fill">&#xb02b;</string>
+    <string name="uik_icon_location_fill">&#xb03b;</string>
+    <string name="uik_icon_delete_fill">&#xb08b;</string>
+    <string name="uik_icon_like_fill">&#xb17b;</string>
+    <string name="uik_icon_comment_fill">&#xb18b;</string>
+    <string name="uik_icon_same_fill">&#xb19b;</string>
+    <string name="uik_icon_notification_fill">&#xb21b;</string>
+    <string name="uik_icon_camera_fill">&#xb22b;</string>
+    <string name="uik_icon_tag_fill">&#xb23b;</string>
+    <!-- end for icon b -->
+
+
+    <!-- icon c -->
+    <string name="uik_icon_pay">&#xc01a;</string>
+    <string name="uik_icon_send">&#xc02a;</string>
+    <string name="uik_icon_deliver">&#xc03a;</string>
+    <string name="uik_icon_evaluate">&#xc04a;</string>
+    <string name="uik_icon_refund">&#xc05a;</string>
+    <string name="uik_icon_wang">&#xc06a;</string>
+    <string name="uik_icon_ticket">&#xc07a;</string>
+    <string name="uik_icon_shop">&#xc08a;</string>
+    <!-- for fill -->
+    <string name="uik_icon_wang_fill">&#xc06b;</string>
+    <string name="uik_icon_shop_fill">&#xc08b;</string>
+    <!-- end for icon c -->
+
+
+    <!-- icon d -->
+    <string name="uik_icon_check">&#xd01a;</string>
+    <string name="uik_icon_round_check">&#xd02a;</string>
+    <string name="uik_icon_close">&#xd03a;</string>
+    <string name="uik_icon_round_close">&#xd04a;</string>
+    <string name="uik_icon_right">&#xd05a;</string>
+    <string name="uik_icon_round_right">&#xd06a;</string>
+    <string name="uik_icon_unfold">&#xd07a;</string>
+    <string name="uik_icon_warn">&#xd08a;</string>
+    <string name="uik_icon_question">&#xd09a;</string>
+    <!-- for fill -->
+
+    <string name="uik_icon_round_check_fill">&#xd02b;</string>
+    <string name="uik_icon_round_close_fill">&#xd04b;</string>
+    <string name="uik_icon_round_right_fill">&#xd06b;</string>
+    <string name="uik_icon_warn_fill">&#xd08b;</string>
+    <string name="uik_icon_question_fill">&#xd09b;</string>
+    <!-- end for icon d -->
+
+
+    <!-- update for 88 -->
+    <string name="uik_icon_link">&#xb26a;</string>
+    <string name="uik_icon_friend_add">&#xb27a;</string>
+    <string name="uik_icon_friend_add_fill">&#xb27b;</string>
+    <string name="uik_icon_address_book">&#xb28a;</string>
+    <string name="uik_icon_unlock">&#xb29a;</string>
+    <string name="uik_icon_lock">&#xb30a;</string>
+    <string name="uik_icon_friend_famous">&#xb31a;</string>
+    <string name="uik_icon_present">&#xb32a;</string>
+    <string name="uik_icon_selection">&#xb34a;</string>
+    <string name="uik_icon_attention">&#xb35a;</string>
+    <string name="uik_icon_explore">&#xb36a;</string>
+    <string name="uik_icon_activity">&#xb37a;</string>
+    <string name="uik_icon_vip">&#xb38a;</string>
+    <string name="uik_icon_goods">&#xb39a;</string>
+    <string name="uik_icon_weibo">&#xe01a;</string>
+    <string name="uik_icon_big">&#xe02a;</string>
+    <string name="uik_icon_tmall">&#xe03a;</string>
+    <string name="uik_icon_notification_forbid_fill">&#xb40b;</string>
+    <string name="uik_icon_add">&#xd10a;</string>
+    <string name="uik_icon_round_add">&#xd11a;</string>
+    <string name="uik_icon_round_add_fill">&#xd11b;</string>
+    <string name="uik_icon_round">&#xd12a;</string>
+    <string name="uik_icon_square">&#xd13a;</string>
+    <string name="uik_icon_square_check">&#xd14a;</string>
+    <string name="uik_icon_square_check_fill">&#xd14b;</string>
+    <string name="uik_icon_selection_fill">&#xb34b;</string>
+    <string name="uik_icon_attention_fill">&#xb35b;</string>
+    <string name="uik_icon_explore_fill">&#xb36b;</string>
+    <string name="uik_icon_redpacket">&#xb41a;</string>
+    <string name="uik_icon_fold">&#xd15a;</string>
+    <string name="uik_icon_similar">&#xb42a;</string>
+    <string name="uik_icon_game">&#xb43a;</string>
+    <string name="uik_icon_appreciated_fill">&#xb10b;</string>
+    <string name="uik_icon_info">&#xd16a;</string>
+    <string name="uik_icon_info_fill">&#xd16b;</string>
+    <!-- end update for 88 -->
+
+
+    <!-- update for 11 -->
+    <string name="uik_icon_mobile_taobao">&#xe05a;</string>
+    <string name="uik_icon_tao">&#xe06a;</string>
+    <string name="uik_icon_bar_code">&#xb44a;</string>
+    <string name="uik_icon_reward">&#xb45a;</string>
+    <string name="uik_icon_reward_fill">&#xb45b;</string>
+    <string name="uik_icon_recharge">&#xb46a;</string>
+    <string name="uik_icon_recharge_fill">&#xb46b;</string>
+    <string name="uik_icon_vip_card">&#xb47a;</string>
+    <string name="uik_icon_voice">&#xb48a;</string>
+    <string name="uik_icon_voice_fill">&#xb48b;</string>
+    <string name="uik_icon_friend_favor">&#xb49a;</string>
+    <string name="uik_icon_wifi">&#xb50a;</string>
+    <!-- end update for 11 -->
+
+
+    <!-- update for 12 -->
+    <string name="uik_icon_camera_rotate">&#xb51a;</string>
+    <string name="uik_icon_light">&#xb52a;</string>
+    <string name="uik_icon_light_fill">&#xb52b;</string>
+    <string name="uik_icon_light_forbid">&#xb53a;</string>
+    <string name="uik_icon_light_auto">&#xb54a;</string>
+    <string name="uik_icon_flash_light_close">&#xb55a;</string>
+    <string name="uik_icon_flash_light_open">&#xb56a;</string>
+    <string name="uik_icon_search_list">&#xb57a;</string>
+    <string name="uik_icon_service">&#xb58a;</string>
+    <string name="uik_icon_1212">&#xe08a;</string>
+    <!-- end update for 12 -->
+
+
+    <!-- update for mlgj -->
+    <string name="uik_icon_down">&#xb59a;</string>
+    <string name="uik_icon_mobile">&#xb60a;</string>
+    <string name="uik_icon_mobile_fill">&#xb60b;</string>
+    <!-- end update for mlgj -->
+
+	<!-- update for 2015 01  -->
+	<string name="uik_icon_pull_right">&#xb66a;</string>
+	<string name="uik_icon_pull_left">&#xb67a;</string>
+	<string name="uik_icon_keyboard">&#xb68a;</string>
+	<string name="uik_icon_rank">&#xb69a;</string>
+	<string name="uik_icon_rank_fill">&#xb69b;</string>
+	<string name="uik_icon_new">&#xb70a;</string>
+	<string name="uik_icon_new_fill">&#xb70b;</string>
+	<string name="uik_icon_male">&#xb71a;</string>
+	<string name="uik_icon_female">&#xb72a;</string>
+	<string name="uik_icon_brand">&#xb73a;</string>
+	<string name="uik_icon_brand_fill">&#xb73b;</string>
+	<string name="uik_icon_choiceness">&#xb74a;</string>
+	<string name="uik_icon_choiceness_fill">&#xb74b;</string>
+	<string name="uik_icon_baby">&#xb75a;</string>
+	<string name="uik_icon_baby_fill">&#xb75b;</string>
+	<string name="uik_icon_clothes">&#xb76a;</string>
+	<string name="uik_icon_clothes_fill">&#xb76b;</string>
+	<string name="uik_icon_creative">&#xb77a;</string>
+	<string name="uik_icon_creative_fill">&#xb77b;</string>
+	<string name="uik_icon_upstage">&#xb61a;</string>
+	<string name="uik_icon_upstage_fill">&#xb61b;</string>
+	<string name="uik_icon_countdown">&#xb62a;</string>
+	<string name="uik_icon_countdown_fill">&#xb62b;</string>
+	<string name="uik_icon_notice">&#xb63a;</string>
+	<string name="uik_icon_notice_fill">&#xb63b;</string>
+	<string name="uik_icon_qiang">&#xb64a;</string>
+	<string name="uik_icon_copy">&#xb65a;</string>
+	<string name="uik_icon_friend_fill">&#xa17b;</string>
+	<string name="uik_icon_bad">&#xb78a;</string>
+    <string name="uik_icon_camera_add">&#xb79a;</string>
+    <string name="uik_icon_focus">&#xb80a;</string>
+	<!-- end update for 2015 01  -->
+
+    <string name="uik_icon_refresh">&#xa20a;</string>
+    
+    <!-- update for 2015 02  -->
+    <string name="uik_icon_38">&#xe09a;</string>
+    <!-- end update for 2015 02  -->
+    
+    <!-- update for 2015 03  -->
+    <string name="uik_icon_apps">&#xb81a;</string>
+    <string name="uik_icon_pic_fill">&#xb25b;</string>
+    <string name="uik_icon_paint">&#xb82a;</string>
+    <string name="uik_icon_paint_fill">&#xb82b;</string>
+    <!-- end update for 2015 03  -->
+    
+    <!-- update for 2015 04  -->
+    <string name="uik_icon_album">&#xb85a;</string>
+    <string name="uik_icon_repeal">&#xd18a;</string>
+    <string name="uik_icon_people">&#xb86a;</string>
+    <string name="uik_icon_people_fill">&#xb86b;</string>
+    <string name="uik_icon_service_fill">&#xb58b;</string>
+    <string name="uik_icon_repair">&#xb87a;</string>
+    <string name="uik_icon_repair_fill">&#xb87b;</string>
+    <string name="uik_icon_file">&#xb88a;</string>
+    <string name="uik_icon_mark">&#xb83a;</string>
+    <string name="uik_icon_mark_fill">&#xb83b;</string>
+    <string name="uik_icon_hot">&#xb84a;</string>
+    <string name="uik_icon_hot_fill">&#xb84b;</string>
+    <!-- end update for 2015 04  -->
+
+    <!-- update for 2015 05  -->
+    <string name="uik_icon_taoxiaopu">&#xe10a;</string>
+    <string name="uik_icon_command">&#xb89a;</string>
+    <string name="uik_icon_command_fill">&#xb89b;</string>
+    <string name="uik_icon_community">&#xa22a;</string>
+    <string name="uik_icon_community_fill">&#xa22b;</string>
+    <string name="uik_icon_read">&#xb90a;</string>
+    <string name="uik_icon_present_fill">&#xb32b;</string>
+    <!-- end update for 2015 05  -->    
+    
+    <!-- update for 2015.06 -->
+    <string name="uik_icon_ju">&#xe11a;</string>
+    <string name="uik_icon_hua">&#xe12a;</string>
+    <string name="uik_icon_suan">&#xe13a;</string>
+    <string name="uik_icon_tian">&#xe14a;</string>
+    <string name="uik_icon_mao">&#xe15a;</string>
+    <string name="uik_icon_qi">&#xe16a;</string>
+    <string name="uik_icon_ye">&#xe17a;</string>
+    <string name="uik_icon_magic">&#xb91a;</string>
+    <string name="uik_icon_cut">&#xb92a;</string>
+    <string name="uik_icon_calendar">&#xb93a;</string>
+    
+    <!-- update for 2015.07 -->
+    <string name="uik_icon_group">&#xb94a;</string>
+    <string name="uik_icon_move">&#xd19a;</string>
+    <string name="uik_icon_play_fill">&#xd20b;</string>
+    <string name="uik_icon_stop">&#xd21a;</string>
+    <string name="uik_icon_forward_fill">&#xd22b;</string>
+    <string name="uik_icon_backward_fill">&#xd23b;</string>
+    
+    <!-- update for 2015.08 -->
+    <string name="uik_icon_radio">&#xd24a;</string>
+    <string name="uik_icon_radio_box_fill">&#xd24b;</string>
+    <string name="uik_icon_round_down">&#xd25a;</string>
+    <string name="uik_icon_upload">&#xd26a;</string>
+    <string name="uik_icon_back_delete">&#xd27a;</string>
+    <string name="uik_icon_post">&#xd28a;</string>
+    <string name="uik_icon_punch">&#xb95a;</string>
+    <string name="uik_icon_shake">&#xb96a;</string>
+    <string name="uik_icon_write">&#xb97a;</string>
+    <string name="uik_icon_write_fill">&#xb97b;</string>
+    <string name="uik_icon_video">&#xb98a;</string>
+    <string name="uik_icon_video_fill">&#xb98b;</string>
+    <string name="uik_icon_all">&#xb99a;</string>
+    
+    <string name="uik_icon_tianmao">&#xe18a;</string>
+    <string name="uik_icon_taoqianggou">&#xe19a;</string>
+    <string name="uik_icon_juhuasuan">&#xe20a;</string>
+    <string name="uik_icon_haodian">&#xe21a;</string>
+    <string name="uik_icon_safe">&#xf01a;</string>
+
+    <!-- update for 2015.09-->
+    <string name="uik_icon_we_unblock">&#xf02a;</string>
+    <string name="uik_icon_we_block">&#xf03a;</string>
+    <string name="uik_icon_up_block">&#xf04a;</string>
+    <string name="uik_icon_sponsor">&#xf05a;</string>
+    <string name="uik_icon_sponsor_fill">&#xf05b;</string>
+    <string name="uik_icon_sound">&#xf06a;</string>
+    <string name="uik_icon_profile_fill">&#xa18b;</string>
+    <string name="uik_icon_message_fill">&#xa08b;</string>
+    <string name="uik_icon_goods_fill">&#xb39b;</string>
+    <string name="uik_icon_1111">&#xe22a;</string>
+    <string name="uik_icon_crown">&#xf07a;</string>
+    <string name="uik_icon_crown_fill">&#xf07b;</string>
+    <string name="uik_icon_activity_fill">&#xb37b;</string>
+
+    <!-- update for 2015.10 双十一tabbar图标 -->
+    <string name="uik_icon_home_fill_11">&#xa01c;</string>
+    <string name="uik_icon_we_fill_11">&#xa02c;</string>
+    <string name="uik_icon_community_fill_11">&#xa22c;</string>
+    <string name="uik_icon_cart_fill_11">&#xa04c;</string>
+    <string name="uik_icon_my_fill_11">&#xa05c;</string>
+
+    <!-- update for 2015.10.26 双十二图标 -->
+    <string name="uik_icon_arrow_left_fill">&#xf08b;</string>
+    <string name="uik_icon_arrow_up_fill">&#xf09b;</string>
+    <string name="uik_icon_emoji_add">&#xf10a;</string>
+    <string name="uik_icon_bomb">&#xf11a;</string>
+    <string name="uik_icon_bomb_fill">&#xf11b;</string>
+    <string name="uik_icon_flashbuy">&#xf12a;</string>
+    <string name="uik_icon_flashbuy_fill">&#xf12b;</string>
+    <string name="uik_icon_crazy">&#xf13a;</string>
+    <string name="uik_icon_crazy_fill">&#xf13b;</string>
+    <string name="uik_icon_brand_sale">&#xf14a;</string>
+    <string name="uik_icon_brand_sale_fill">&#xf14b;</string>
+    <string name="uik_icon_rob">&#xf15a;</string>
+    <string name="uik_icon_rob_fill">&#xf15b;</string>
+
+</resources>

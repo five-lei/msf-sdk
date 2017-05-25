@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="mui_f9">9sp</dimen>
+    <dimen name="mui_f10">10sp</dimen>
+    <dimen name="mui_f11">11sp</dimen>
+    <dimen name="mui_f12">12sp</dimen>
+    <dimen name="mui_f13">13sp</dimen>
+    <dimen name="mui_f14">14sp</dimen>
+    <dimen name="mui_f15">15sp</dimen>
+    <dimen name="mui_f16">16sp</dimen>
+    <dimen name="mui_f17">17sp</dimen>
+    <dimen name="mui_f18">18sp</dimen>
+    <dimen name="mui_f19">19sp</dimen>
+    <dimen name="mui_f20">20sp</dimen>
+    <dimen name="mui_f22">22sp</dimen>
+    <dimen name="mui_f60">60sp</dimen>
+    <!-- dp dec -->
+    <dimen name="mui_f9_dp">9dp</dimen>
+    <dimen name="mui_f10_dp">10dp</dimen>
+    <dimen name="mui_f11_dp">11dp</dimen>
+    <dimen name="mui_f12_dp">12dp</dimen>
+    <dimen name="mui_f13_dp">13dp</dimen>
+    <dimen name="mui_f14_dp">14dp</dimen>
+    <dimen name="mui_f15_dp">15dp</dimen>
+    <dimen name="mui_f16_dp">16dp</dimen>
+    <dimen name="mui_f17_dp">17dp</dimen>
+    <dimen name="mui_f18_dp">18dp</dimen>
+
+</resources>

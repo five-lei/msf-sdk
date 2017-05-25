@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TPriceTextView">
+        <attr name="uik_price" format="float" />
+        <attr name="uik_dollar_ratio" format="float" />
+        <attr name="uik_decimal_ratio" format="float"/>
+        <attr name="android:textColor" />
+    </declare-styleable>
+
+    <!-- TBSearchView attrs-->
+    <declare-styleable name="TBSearchView">
+        <attr name="uik_showSearchButton" format="boolean" />
+        <attr name="uik_editable" format="boolean" />
+        <attr name="uik_text" format="string" />
+        <attr name="uik_hit" format="string" />
+    </declare-styleable>
+
+
+    <attr name="uik_place_hold_background" format="reference" />
+    <attr name="uik_error_background" format="reference" />
+
+    <declare-styleable name="ImageLoadFeature">
+        <attr name="uik_fade_in" format="boolean" />
+        <attr name="uik_skip_auto_size" format="boolean" />
+        <attr name="uik_when_null_clear_img" format="boolean" />
+        <attr name="uik_place_hold_foreground" format="reference" />
+        <attr name="uik_place_hold_background" />
+        <attr name="uik_error_background" />
+    </declare-styleable>
+
+    <declare-styleable name="TBErrorView">
+        <attr name="uik_errorIcon" format="string" />
+        <attr name="uik_errorTitle" format="string" />
+        <attr name="uik_errorSubTitle" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="TBCircularProgress">
+        <attr name="uik_ringColor" format="reference|color" />
+        <attr name="uik_ringWidth" format="dimension" />
+        <attr name="uik_ringSize" format="dimension" />
+        <attr name="uik_progressText" format="string" />
+        <attr name="uik_progressTextSize" format="dimension" />
+        <attr name="uik_progressTextColor" format="reference|color" />
+        <attr name="uik_progressAlpha" format="integer" />
+        <attr name="uik_progressBackground" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="ItemLayout">
+        <attr name="uik_place_hold_background" />
+        <attr name="uik_error_background" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TLikeButton">
+        <attr name="uik_likeColor" format="color|reference" />
+        <attr name="uik_liked" format="boolean" />
+        <attr name="uik_likeOn" format="string|reference" />
+        <attr name="uik_likeOff" format="string|reference" />
+        <attr name="uik_likeGap" format="dimension" />
+        <attr name="uik_likeRatio" format="float" />
+        <attr name="uik_likeVerticalOffset" format="dimension" />
+        <attr name="uik_likeOriental">
+            <flag name="vertical" value="0x01" />
+            <flag name="horizontal" value="0x02" />
+        </attr>
+    </declare-styleable>
+</resources>

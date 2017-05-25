@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="uik_errorButtonPos" type="id" />
+    <item name="uik_errorButtonNag" type="id" />
+    <item name="uik_item_pic" type="id" />
+    <item name="uik_item_title" type="id" />
+</resources>

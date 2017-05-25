@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/msf_img_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:padding="16dp" >
+
+    <TextView
+        android:id="@+id/t_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="挖掘机"
+        android:textColor="@color/mui_c2"
+        android:textSize="@dimen/mui_f14" />
+
+    <TextView
+        android:id="@+id/check_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/pic_msf_select"
+        android:textColor="@color/mui_c0"
+        android:textSize="@dimen/mui_f14" />
+
+</RelativeLayout>

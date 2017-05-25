@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 自定义loading dialog -->
+    <style name="tm_loading_dialog_style" parent="android:Theme.Dialog">
+        <item name="android:windowFullscreen">true</item> <!-- 全屏展示 -->
+        <item name="android:windowFrame">@null</item> <!-- Dialog的windowFrame框为无 -->
+        <!-- <item name="android:windowBackground">@android:color/transparent</item> -->
+        <item name="android:windowBackground">@color/transparent</item> <!-- 设置dialog的背景 -->
+        <item name="android:windowNoTitle">true</item> <!-- 是否显示title -->
+        <item name="android:windowIsTranslucent">true</item> <!-- 是否半透明 -->
+        <item name="android:windowIsFloating">true</item> <!-- 是否浮现在activity之上 -->
+       <!-- <item name="android:windowContentOverlay">@null</item>  也是个drawable，定义contentoverlay的背景 -->
+        <item name="android:backgroundDimEnabled">true</item> <!-- 背景是否模糊显示 -->
+    </style>
+
+    <style name="TMPopWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/tm_window_grow_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/tm_window_shrink_fade_out</item>
+    </style>
+
+    <!--
+    <style name="TMActionbarTitleStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/mui_c7</item>
+        <item name="android:textSize">@dimen/mui_f15</item>
+    </style>
+    -->
+
+    <style name="mui_btn_parent" parent="@android:style/Widget.Button">
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:minHeight">42dp</item>
+        <item name="android:minWidth">84dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- 最大尺寸红色按钮 -->
+    <style name="mui_b0" parent="@style/mui_btn_parent">
+        <item name="android:background">@drawable/tm_mui_btn_red</item>
+        <item name="android:textSize">@dimen/mui_f14</item>
+    </style>
+
+    <!-- 中等尺寸红色按钮 -->
+    <style name="mui_b1" parent="@style/mui_btn_parent">
+        <item name="android:background">@drawable/tm_mui_btn_red</item>
+        <item name="android:textSize">@dimen/mui_f14</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:minWidth">60dp</item>
+    </style>
+
+    <!-- 最小尺寸红色按钮 -->
+    <style name="mui_b2" parent="@style/mui_btn_parent">
+        <item name="android:background">@drawable/tm_mui_btn_red</item>
+        <item name="android:textSize">@dimen/mui_f12</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:minWidth">40dp</item>
+    </style>
+
+    <!-- 最大尺寸粉色按钮 -->
+    <style name="mui_b3" parent="@style/mui_b0">
+        <item name="android:background">@drawable/tm_mui_btn_red_light</item>
+        <item name="android:textColor">@color/mui_color_text_b3</item>
+    </style>
+
+    <!-- 中等尺寸粉色按钮 -->
+    <style name="mui_b4" parent="@style/mui_b1">
+        <item name="android:background">@drawable/tm_mui_btn_red_light</item>
+        <item name="android:textColor">@color/mui_color_text_b3</item>
+    </style>
+
+    <!-- 最小尺寸粉色按钮 -->
+    <style name="mui_b5" parent="@style/mui_b2">
+        <item name="android:textColor">@color/mui_color_text_b3</item>
+        <item name="android:background">@drawable/tm_mui_btn_red_light</item>
+    </style>
+
+    <!-- 最大尺寸白色按钮 -->
+    <style name="mui_b6" parent="@style/mui_b0">
+        <item name="android:background">@drawable/tm_mui_btn_white</item>
+        <item name="android:textColor">@color/mui_c4</item>
+    </style>
+
+    <!-- 中等尺寸白色按钮 -->
+    <style name="mui_b7" parent="@style/mui_b1">
+        <item name="android:background">@drawable/tm_mui_btn_white</item>
+        <item name="android:textColor">@color/mui_c4</item>
+    </style>
+
+    <!-- 最小尺寸白色按钮 -->
+    <style name="mui_b8" parent="@style/mui_b2">
+        <item name="android:background">@drawable/tm_mui_btn_white</item>
+        <item name="android:textColor">@color/mui_c4</item>
+    </style>
+
+    <style name="mui_cl0">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/mui_c1_a10</item>
+    </style>
+
+    <style name="mui_cl1">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/mui_c1_a30</item>
+    </style>
+
+    <style name="mui_cl2">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@drawable/tm_mui_cent_line_with_gap_a20</item>
+    </style>
+
+    <style name="mui_cl3">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@drawable/tm_mui_cent_line_with_gap_a40</item>
+    </style>
+
+    <style name="mui_cl0_vertical">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/mui_c1_a10</item>
+    </style>
+
+    <style name="mui_cl1_vertical">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/mui_c1_a30</item>
+    </style>
+
+    <style name="mui_cl2_vertical">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/tm_mui_cent_line_with_gap_a20</item>
+    </style>
+
+    <style name="mui_cl3_vertical">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/tm_mui_cent_line_with_gap_a20</item>
+    </style>
+
+    <style name="mui_edittext" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/tm_mui_bg_input</item>
+    </style>
+
+</resources>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- iconfont 统一声明文件 -->
+
+
+    <!-- 首页MainTab部分-->
+    <string name="iconfont_homepage">&#xe61f;</string>
+    <string name="iconfont_personal">&#xe61b;</string>
+    <string name="iconfont_fun">&#xe600;</string>
+    <string name="iconfont_mcart">&#xe614;</string>
+    <string name="iconfont_my">&#xe620;</string>
+    <string name="iconfont_category">&#xe606;</string>
+    <string name="iconfont_scan">&#xe608;</string>
+    <string name="iconfont_mail">&#xe618;</string>
+    <string name="iconfont_fu">&#xe66c;</string>
+
+    <string name="iconfont_homepage_selected">&#xe61e;</string>
+    <string name="iconfont_personal_selected">&#xe61a;</string>
+    <string name="iconfont_fun_selected">&#xe600;</string>
+    <string name="iconfont_mcart_selected">&#xe656;</string>
+    <string name="iconfont_my_selected">&#xe657;</string>
+    <string name="iconfont_fu_selected">&#xe66d;</string>
+
+
+    <!-- xxx 部分 ，向后添加-->
+   <!-- webview actionbar-->
+    <string name="iconfont_refresh">&#xe602;</string>
+    <string name="iconfont_share">&#xe611;</string>
+    <string name="iconfont_message">&#xe618;</string>
+    <string name="iconfont_search">&#xe609;</string>
+    <string name="iconfont_home">&#xe61f;</string>
+
+    <string name="iconfont_maotou">&#xe655;</string>
+    
+    <string name="iconfont_back">&#xe632;</string>
+
+    <!-- 返回按钮 -->
+    <string name="iconfont_back3">&#xe63e;</string>
+    <string name="iconfont_back4">&#xe63f;</string>
+
+
+    <!-- “+”图标， 关注、添加、收藏 -->
+    <string name="iconfont_add">&#xe60d;</string>
+
+    <!-- 全部订单 -->
+    <string name="iconfont_orders">&#xe658;</string>
+    <string name="iconfont_all_orders">&#xe658;</string>
+    <string name="iconfont_pay_orders">&#xe65e;</string>
+    <string name="iconfont_delivered_orders">&#xe661;</string>
+    <string name="iconfont_received_orders">&#xe65f;</string>
+    <string name="iconfont_rate_orders">&#xe662;</string>
+    <string name="iconfont_refund_orders">&#xe663;</string>
+
+    <string name="iconfont_voice">&#xe608;</string>
+
+    <!-- 我的页面 旺旺头像等 -->
+    <string name="iconfont_wangwang">&#xe60a;</string>
+
+    <!-- 删除 -->
+    <string name="iconfont_delete_2">&#xe651;</string>
+
+    <!-- 喇叭 -->
+    <string name="iconfont_horn">&#xe681;</string>
+
+
+    <string name="iconfont_anzhuogengduo">&#xe65b;</string>
+    <string name="iconfont_anzhuoxiala">&#xe65a;</string>
+    <string name="iconfont_baocundaozhuomian">&#xe60b;</string>
+    <string name="iconfont_biaochi">&#xe67c;</string>
+    <string name="iconfont_biaoqing">&#xe67a;</string>
+    <string name="iconfont_chakan">&#xe66e;</string>
+    <string name="iconfont_chanpincanshu">&#xe612;</string>
+    <string name="iconfont_chiping">&#xe628;</string>
+    <string name="iconfont_cuowu">&#xe67d;</string>
+    <string name="iconfont_daifahuo">&#xe661;</string>
+    <string name="iconfont_daifukuan">&#xe65e;</string>
+    <string name="iconfont_daipingjia">&#xe662;</string>
+    <string name="iconfont_daishouhuo">&#xe65f;</string>
+    <string name="iconfont_datumoshi">&#xe604;</string>
+    <string name="iconfont_dianhua">&#xe652;</string>
+    <string name="iconfont_dianpu">&#xe619;</string>
+    <string name="iconfont_dianpushouye">&#xe60c;</string>
+    <string name="iconfont_dianzan">&#xe636;</string>
+    <string name="iconfont_dingwei">&#xe65c;</string>
+    <string name="iconfont_erweima">&#xe634;</string>
+    <string name="iconfont_fandouer">&#xe646;</string>
+    <string name="iconfont_faner">&#xe600;</string>
+    <string name="iconfont_fangxiang1">&#xe643;</string>
+    <string name="iconfont_fangxiang2">&#xe641;</string>
+    <string name="iconfont_fangxiang3">&#xe644;</string>
+    <string name="iconfont_fangxiang4">&#xe645;</string>
+    <string name="iconfont_fanhui1">&#xe632;</string>
+    <string name="iconfont_fanhui2">&#xe635;</string>
+    <string name="iconfont_fanhui3">&#xe63e;</string>
+    <string name="iconfont_fanhui4">&#xe63f;</string>
+    <string name="iconfont_fanhui5">&#xe63a;</string>
+    <string name="iconfont_fanhui6">&#xe639;</string>
+    <string name="iconfont_fanhui7">&#xe638;</string>
+    <string name="iconfont_fanhui8">&#xe637;</string>
+    <string name="iconfont_fenlei">&#xe606;</string>
+    <string name="iconfont_gengduo">&#xe63b;</string>
+    <string name="iconfont_gongnengjianyi">&#xe601;</string>
+    <string name="iconfont_goumai">&#xe613;</string>
+    <string name="iconfont_gouwuche">&#xe614;</string>
+    <string name="iconfont_gouwuchexuanzhong">&#xe656;</string>
+    <string name="iconfont_guanyuwo">&#xe667;</string>
+    <string name="iconfont_guanzhu">&#xe61b;</string>
+    <string name="iconfont_guanzhu1">&#xe65d;</string>
+    <string name="iconfont_guanzhudianpu">&#xe60d;</string>
+    <string name="iconfont_guanzhuxuanzhong">&#xe61a;</string>
+    <string name="iconfont_hongbao">&#xe67f;</string>
+    <string name="iconfont_huanyipi">&#xe602;</string>
+    <string name="iconfont_huidaodingbu">&#xe653;</string>
+    <string name="iconfont_huiyuan">&#xe615;</string>
+    <string name="iconfont_huiyuanqia">&#xe61c;</string>
+    <string name="iconfont_jiancai">&#xe605;</string>
+    <string name="iconfont_jifen">&#xe64c;</string>
+    <string name="iconfont_jifen1">&#xe67e;</string>
+    <string name="iconfont_jindianzi">&#xe682;</string>
+    <string name="iconfont_jinrudianpu">&#xe62b;</string>
+    <string name="iconfont_jisutuikuan">&#xe676;</string>
+    <string name="iconfont_ju">&#xe64d;</string>
+    <string name="iconfont_kefuyouxian">&#xe675;</string>
+    <string name="iconfont_laba">&#xe681;</string>
+    <string name="iconfont_laiwang">&#xe62c;</string>
+    <string name="iconfont_lianjie">&#xe631;</string>
+    <string name="iconfont_liebiaomoshi">&#xe607;</string>
+    <string name="iconfont_liebiaomoshi2">&#xe660;</string>
+    <string name="iconfont_liebiaoshitu">&#xe679;</string>
+    <string name="iconfont_mao">&#xe64e;</string>
+    <string name="iconfont_mima">&#xe633;</string>
+    <string name="iconfont_nianhuo">&#xe669;</string>
+    <string name="iconfont_nianhuo1">&#xe66b;</string>
+    <string name="iconfont_nianhuo2">&#xe66c;</string>
+    <string name="iconfont_nianhuoxuanzhong">&#xe668;</string>
+    <string name="iconfont_nianhuoxuanzhong1">&#xe66a;</string>
+    <string name="iconfont_nianhuoxuanzhong2">&#xe66d;</string>
+    <string name="iconfont_paishe">&#xe61d;</string>
+    <string name="iconfont_paishexuanzhong">&#xe664;</string>
+    <string name="iconfont_paixing">&#xe666;</string>
+    <string name="iconfont_pengyouquan">&#xe62d;</string>
+    <string name="iconfont_pinglun">&#xe616;</string>
+    <string name="iconfont_pinpaizhuanxiang">&#xe677;</string>
+    <string name="iconfont_quanbudingdan">&#xe658;</string>
+    <string name="iconfont_quanbushangpin">&#xe60e;</string>
+    <string name="iconfont_sanjiao1">&#xe648;</string>
+    <string name="iconfont_sanjiao2">&#xe647;</string>
+    <string name="iconfont_sanjiao3">&#xe64a;</string>
+    <string name="iconfont_sanjiao4">&#xe649;</string>
+    <string name="iconfont_saoma">&#xe608;</string>
+    <string name="iconfont_shanchu">&#xe654;</string>
+    <string name="iconfont_shanchu1">&#xe66f;</string>
+    <string name="iconfont_shanchu2">&#xe651;</string>
+    <string name="iconfont_shangsheng">&#xe630;</string>
+    <string name="iconfont_shengbo">&#xe622;</string>
+    <string name="iconfont_shengritequan">&#xe674;</string>
+    <string name="iconfont_shijian">&#xe623;</string>
+    <string name="iconfont_shoucang">&#xe63d;</string>
+    <string name="iconfont_shoucangxuanzhong">&#xe63c;</string>
+    <string name="iconfont_shouhouwuyou">&#xe672;</string>
+    <string name="iconfont_shouye">&#xe61f;</string>
+    <string name="iconfont_shouyexuanzhong">&#xe61e;</string>
+    <string name="iconfont_sousuo">&#xe609;</string>
+    <string name="iconfont_tao">&#xe64b;</string>
+    <string name="iconfont_tianmaobao">&#xe642;</string>
+    <string name="iconfont_tianmaofenqi">&#xe673;</string>
+    <string name="iconfont_tianmaologo1">&#xe64f;</string>
+    <string name="iconfont_tianmaoxingxiang1">&#xe655;</string>
+    <string name="iconfont_tibug">&#xe665;</string>
+    <string name="iconfont_tishi">&#xe67b;</string>
+    <string name="iconfont_tuihuobaozhang">&#xe678;</string>
+    <string name="iconfont_tuikuan">&#xe663;</string>
+    <string name="iconfont_tuwenxiangqing">&#xe617;</string>
+    <string name="iconfont_weixin">&#xe62f;</string>
+    <string name="iconfont_weixuanzhongyuanquan">&#xe650;</string>
+    <string name="iconfont_wentifankui">&#xe624;</string>
+    <string name="iconfont_wo">&#xe620;</string>
+    <string name="iconfont_wodexuanzhong">&#xe657;</string>
+    <string name="iconfont_xiajiang">&#xe629;</string>
+    <string name="iconfont_xianshihoumai">&#xe671;</string>
+    <string name="iconfont_xiaoxi">&#xe618;</string>
+    <string name="iconfont_xinlang">&#xe62e;</string>
+    <string name="iconfont_xinxi">&#xe625;</string>
+    <string name="iconfont_xiugaioryijian">&#xe626;</string>
+    <string name="iconfont_xuanzhong">&#xe62a;</string>
+    <string name="iconfont_xuanzhuan">&#xe640;</string>
+    <string name="iconfont_yiguanzhu">&#xe60f;</string>
+    <string name="iconfont_youhuiquan">&#xe621;</string>
+    <string name="iconfont_yuyin">&#xe610;</string>
+    <string name="iconfont_yuyinsousuo">&#xe659;</string>
+    <string name="iconfont_zan">&#xe627;</string>
+    <string name="iconfont_zanxuanzhong">&#xe670;</string>
+    <string name="iconfont_zhongtumoshi">&#xe603;</string>
+    <string name="iconfont_zhuanfa">&#xe611;</string>
+    <string name="iconfont_zuji">&#xe680;</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 基本颜色值 -->
+    <drawable name="transparent">#00000000</drawable>
+
+    <color name="transparent">#00000000</color>
+    <color name="translucent_background">#cc000000</color> <!-- #a0000000 -->
+    <color name="white">#ffffff</color>
+    <color name="orange">#FF9900</color>
+    <color name="msf_result_view">#b0000000</color>
+    <color name="msf_viewfinder_mask">#60000000</color>
+    <color name="msf_possible_result_points">#c0ffff00</color>
+    <color name="msftheme_color">#dd2727</color>
+    <color name="msf_green">#71C93F</color>
+    <color name="msf_blue">#0076FF</color>
+    <color name="msf_black">#030303</color>
+
+</resources>

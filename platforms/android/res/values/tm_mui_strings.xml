@@ -1,0 +1,18 @@
+<resources>
+
+    <!--xlistview-->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <string name="xlistview_footer_wuse_text">[物 • 色]</string>
+    <string name="xlistview_header_wuse_text">[物 • 色]</string>
+    <string name="xlistview_footer_pull_to_next_album">上拉进入下一个专辑</string>
+    <string name="xlistview_footer_release_to_next_album">松手进入下一个专辑</string>
+    <string name="xlistview_header_pull_to_pre_album">下拉进入上一个专辑</string>
+    <string name="xlistview_header_release_to_pre_album">松手进入上一个专辑</string>
+    <string name="xlistview_header_no_pre_album">最新专辑了，上面没有了哦~</string>
+
+</resources>

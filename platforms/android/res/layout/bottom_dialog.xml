@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/maindialog"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="back" >
+
+        <LinearLayout
+            android:id="@+id/exit_layout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#eee"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/b_btn_01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:padding="@dimen/mui_f14_dp" >
+
+                <TextView
+                    android:id="@+id/b_tx_01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="从相机上传"
+                    android:textColor="@color/mui_c2"
+                    android:textSize="@dimen/mui_f16" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/bottom_line"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp" />
+
+            <LinearLayout
+                android:id="@+id/b_btn_02"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:padding="@dimen/mui_f14_dp" >
+
+                <TextView
+                    android:id="@+id/b_tx_02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="拍照"
+                    android:textColor="@color/mui_c2"
+                    android:textSize="@dimen/mui_f16" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:id="@+id/cancelbtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="back"
+                android:padding="@dimen/mui_f14_dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="取消"
+                    android:textColor="@color/mui_c2"
+                    android:textSize="@dimen/mui_f16" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="mui_c0">#dd2727</color>
+    <color name="mui_c0_a40">#66dd2727</color>
+    <color name="mui_c0_a80">#ccdd2727</color>
+    <color name="mui_c1">#000000</color>
+    <color name="mui_c1_a10">#19000000</color>
+    <color name="mui_c1_a20">#33000000</color>
+    <color name="mui_c1_a30">#4C000000</color>
+    <color name="mui_c1_a40">#66000000</color>
+    <color name="mui_c1_a80">#CC000000</color>
+    <color name="mui_c2">#051B28</color>
+    <color name="mui_c3">#666666</color>
+    <color name="mui_c4">#999999</color>
+    <color name="mui_c5">#cccccc</color>
+    <color name="mui_c6">#eeeeee</color>
+    <color name="mui_c7">#ffffff</color>
+    <color name="mui_c8">#dddddd</color>
+    <color name="mui_c9">#fbe9e9</color>
+    <color name="mui_background">@color/mui_c6</color>
+    <color name="mui_btn_pressed_bg_dark">#B10000</color>
+    <color name="mui_btn_pressed_bg_light_pressed">#f8d4d4</color>
+    <color name="mui_btn_pressed_bg_light_normal">#fbe9e9</color>
+    
+
+</resources>

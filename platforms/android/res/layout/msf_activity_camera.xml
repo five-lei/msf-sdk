@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <android.view.SurfaceView
+            android:id="@+id/msf_preview_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        </android.view.SurfaceView>
+
+        <RelativeLayout
+            android:id="@+id/msf_linearLayout1"
+            android:background="#000"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp">
+
+            <Button
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:id="@+id/msf_button_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:text="取消"
+                android:textSize="@dimen/mui_f18_dp"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:layout_centerInParent="true"
+                android:id="@+id/msf_paizhao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/m_paizhao"
+                android:textColor="@color/white"></Button>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

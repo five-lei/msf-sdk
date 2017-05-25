@@ -1,0 +1,25 @@
+<resources>
+
+    <color name="uikit_B_A">#F9F9F9</color>
+    <color name="uikit_transparent">#00000000</color>
+    <color name="uikit_B_F">#FFFFFF</color>
+    <color name="uikit_G_black_light_5">#CCCCCC</color>
+    <color name="uikit_H_orange_light_1">#FFE55245</color>
+    <color name="uikit_A_orange">#FFFF4400</color>
+    <color name="uikit_C_white">#FFFFFFFF</color>
+    <color name="uikit_K_black_light_6">#FFE5E5E5</color>
+    <color name="uikit_F_black_light_4">#FF999999</color>
+    
+    <color name="uik_errorIconColor">#FF999999</color>
+    <color name="uik_errorTitleColor">#FF3d4245</color>
+    <color name="uik_errorSubTitleColor">#FF999999</color>
+    <color name="uik_errorButtonColor">#FF3d4245</color>
+    
+    <color name="uik_ringColor">#FF999999</color>
+    <color name="uik_progressTextColor">#FF999999</color>
+    <color name="uik_progressBackground">#b4000000</color>
+    
+    <color name="uik_errorButtonBackgroud">#FFFFFFFF</color>
+    <color name="uik_title_color">#333333</color>
+    <color name="uik_divider_color">#dddddd</color>
+</resources>

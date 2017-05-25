@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/msf_img_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/btn_view"
+        android:layout_width="72dp"
+        android:layout_height="72dp" >
+
+        <LinearLayout
+            android:id="@+id/btn_camer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/mmaster_img_s"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#f9f9f9"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/camer_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pic_camer"
+                    android:textColor="@color/mui_c5"
+                    android:textSize="@dimen/mui_f20" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="上传进度照"
+                    android:textColor="@color/mui_c5"
+                    android:textSize="@dimen/mui_f10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="至少一张"
+                    android:textColor="@color/mui_c5"
+                    android:textSize="@dimen/mui_f10" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pic_view"
+        android:layout_width="72dp"
+        android:layout_height="72dp" >
+
+        <LinearLayout
+            android:id="@+id/msf_imgebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/mmaster_img_s" >
+
+            <ImageView
+                android:id="@+id/msf_gridImageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_delete"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp" >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-6dp"
+                android:src="@drawable/rectangle" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

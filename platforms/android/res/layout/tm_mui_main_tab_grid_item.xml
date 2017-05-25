@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/mui_c7" >
+    <TextView
+        android:id="@+id/wuse_tab_gridview_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:padding="3dp"
+        android:textSize="@dimen/mui_f15"
+        android:textColor="@color/mui_c1"
+        android:background="@color/mui_c7" />
+    <ImageView
+        android:id="@+id/wuse_tab_gridview_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/wuse_tab_gridview_text"
+        android:background="@drawable/tm_mui_tab_bar_indicator"
+        android:visibility="gone" />
+</RelativeLayout>

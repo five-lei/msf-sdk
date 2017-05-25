@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- 删除按钮 -->
+    <string name="pic_delete">&#xe606;</string>
+    <!-- 相机 -->
+    <string name="pic_camer">&#xe605;</string>
+    <!-- 喵师傅 -->
+    <string name="pic_msf_big">&#xe615;</string>
+    <!-- 选中 -->
+    <string name="pic_msf_select">&#xe600;</string>
+    <!-- 下一步 -->
+    <string name="pic_msf_next">&#xe603;</string>
+ 	<!-- 下一步 -->
+    <string name="pic_msf_prompt">&#xe601;</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TMFlexibleLoadingView">
+        <attr name="lv_bgColor" format="color" />
+        <attr name="lv_type" format="enum">
+            <enum name="STYLE_CAT" value="0"/>
+            <enum name="STYLE_CAT_WITH_BG" value="1"/>
+            <enum name="STYLE_ITEM" value="2"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
